@@ -1,0 +1,369 @@
+\hypertarget{classParser}{\section{Parser Class Reference}
+\label{classParser}\index{Parser@{Parser}}
+}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classParser_a12234f6cd36b61af4b50c94a179422c1}{\hyperlink{classParser_a12234f6cd36b61af4b50c94a179422c1}{Parser} ()}\label{classParser_a12234f6cd36b61af4b50c94a179422c1}
+
+\begin{DoxyCompactList}\small\item\em \hyperlink{classParser}{Parser} constructor initializes all nodes of the A\-S\-T to N\-U\-L\-L. \end{DoxyCompactList}\item 
+\hypertarget{classParser_a3e658b5917a93a3ef648050d060e3a93}{\hyperlink{classParser_a3e658b5917a93a3ef648050d060e3a93}{$\sim$\-Parser} ()}\label{classParser_a3e658b5917a93a3ef648050d060e3a93}
+
+\begin{DoxyCompactList}\small\item\em \hyperlink{classParser}{Parser} destructor, uses 'delete' to free memory dynamically located on the heap. \end{DoxyCompactList}\item 
+\hyperlink{classParseResult}{Parse\-Result} \hyperlink{classParser_a2c1a7aa0b09a43bc1eef460817efb1d6}{parse} (const char $\ast$text)
+\begin{DoxyCompactList}\small\item\em parse takes in a char $\ast$text dsl program and returns the parsed result \end{DoxyCompactList}\item 
+\hyperlink{classParseResult}{Parse\-Result} \hyperlink{classParser_a14e25c84322809e2f060dc530362ea71}{parse\-Program} ()
+\item 
+\hyperlink{classParseResult}{Parse\-Result} \hyperlink{classParser_ac646227983887c1cd13dae67fa1bc142}{parse\-Decl} ()
+\item 
+\hyperlink{classParseResult}{Parse\-Result} \hyperlink{classParser_a1e1f83c0f4b11148a356d951f191425e}{parse\-Standard\-Decl} ()
+\item 
+\hyperlink{classParseResult}{Parse\-Result} \hyperlink{classParser_a3a00df25fda2af308b69f05eed14ac69}{parse\-Matrix\-Decl} ()
+\item 
+\hyperlink{classParseResult}{Parse\-Result} \hyperlink{classParser_a452db3def31683cb0305e57a01489bd4}{parse\-Stmts} ()
+\begin{DoxyCompactList}\small\item\em parse\-Stmts results in either a new 'stmt \hyperlink{classStmts}{Stmts}' or 'empty\-Stmts' (grammar lines 2 or 3) \end{DoxyCompactList}\item 
+\hyperlink{classParseResult}{Parse\-Result} \hyperlink{classParser_a9709c4793d0cce012d595f3ee416cd25}{parse\-Stmt} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{classStmt}{Stmt}. \end{DoxyCompactList}\item 
+\hyperlink{classParseResult}{Parse\-Result} \hyperlink{classParser_a50227dc24dc7a175ac0533d9957dfcf8}{parse\-Expr} (int rbp)
+\begin{DoxyCompactList}\small\item\em \hyperlink{classExpr}{Expr}. \end{DoxyCompactList}\item 
+\hyperlink{classParseResult}{Parse\-Result} \hyperlink{classParser_ad40f1e5e4c66814f959d982f94b767a3}{parse\-True\-Kwd} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{classExpr}{Expr} \-:\-:= true\-Kwd. \end{DoxyCompactList}\item 
+\hypertarget{classParser_a56f03d2e70d12648c55ce56a11e63324}{\hyperlink{classParseResult}{Parse\-Result} \hyperlink{classParser_a56f03d2e70d12648c55ce56a11e63324}{parse\-False\-Kwd} ()}\label{classParser_a56f03d2e70d12648c55ce56a11e63324}
+
+\begin{DoxyCompactList}\small\item\em \hyperlink{classExpr}{Expr} \-:\-:= false\-Kwd. \end{DoxyCompactList}\item 
+\hypertarget{classParser_a2b200b744e5bedf82ef6f610d7877cfc}{\hyperlink{classParseResult}{Parse\-Result} \hyperlink{classParser_a2b200b744e5bedf82ef6f610d7877cfc}{parse\-Int\-Const} ()}\label{classParser_a2b200b744e5bedf82ef6f610d7877cfc}
+
+\begin{DoxyCompactList}\small\item\em \hyperlink{classExpr}{Expr} \-:\-:= int\-Const. \end{DoxyCompactList}\item 
+\hypertarget{classParser_aaf7b1176fd53246f59577c7eec8b9d22}{\hyperlink{classParseResult}{Parse\-Result} \hyperlink{classParser_aaf7b1176fd53246f59577c7eec8b9d22}{parse\-Float\-Const} ()}\label{classParser_aaf7b1176fd53246f59577c7eec8b9d22}
+
+\begin{DoxyCompactList}\small\item\em \hyperlink{classExpr}{Expr} \-:\-:= float\-Const. \end{DoxyCompactList}\item 
+\hypertarget{classParser_a4d8930d45c2b730912154c46cc54833c}{\hyperlink{classParseResult}{Parse\-Result} \hyperlink{classParser_a4d8930d45c2b730912154c46cc54833c}{parse\-String\-Const} ()}\label{classParser_a4d8930d45c2b730912154c46cc54833c}
+
+\begin{DoxyCompactList}\small\item\em \hyperlink{classExpr}{Expr} \-:\-:= string\-Const. \end{DoxyCompactList}\item 
+\hypertarget{classParser_a49c9b3d31ca060c97873e5485d518da3}{\hyperlink{classParseResult}{Parse\-Result} {\bfseries parse\-Char\-Const} ()}\label{classParser_a49c9b3d31ca060c97873e5485d518da3}
+
+\item 
+\hyperlink{classParseResult}{Parse\-Result} \hyperlink{classParser_a8c1baf62f71da64590e883e51ce622ca}{parse\-Variable\-Name} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{classExpr}{Expr} \-:\-:= variable\-Name ..... \end{DoxyCompactList}\item 
+\hypertarget{classParser_aec4c38e1e63c9becfd3a8fc4a1a73f01}{\hyperlink{classParseResult}{Parse\-Result} \hyperlink{classParser_aec4c38e1e63c9becfd3a8fc4a1a73f01}{parse\-Nested\-Expr} ()}\label{classParser_aec4c38e1e63c9becfd3a8fc4a1a73f01}
+
+\begin{DoxyCompactList}\small\item\em \hyperlink{classExpr}{Expr} \-:\-:= '(' \hyperlink{classExpr}{Expr} ')'. \end{DoxyCompactList}\item 
+\hypertarget{classParser_a1503ceff46112d6d4f0e01b5fb77afcd}{\hyperlink{classParseResult}{Parse\-Result} \hyperlink{classParser_a1503ceff46112d6d4f0e01b5fb77afcd}{parse\-Not\-Expr} ()}\label{classParser_a1503ceff46112d6d4f0e01b5fb77afcd}
+
+\begin{DoxyCompactList}\small\item\em \hyperlink{classExpr}{Expr} \-:\-:= '!' \hyperlink{classExpr}{Expr}. \end{DoxyCompactList}\item 
+\hypertarget{classParser_aa24c33b04779801b330d7fe5a74349e5}{\hyperlink{classParseResult}{Parse\-Result} \hyperlink{classParser_aa24c33b04779801b330d7fe5a74349e5}{parse\-Let\-Expr} ()}\label{classParser_aa24c33b04779801b330d7fe5a74349e5}
+
+\begin{DoxyCompactList}\small\item\em \hyperlink{classExpr}{Expr} \-:\-:= 'let' \hyperlink{classStmts}{Stmts} 'in' \hyperlink{classExpr}{Expr} 'end'. \end{DoxyCompactList}\item 
+\hypertarget{classParser_a555bc6f671d408208e6d049f8e9f3c86}{\hyperlink{classParseResult}{Parse\-Result} \hyperlink{classParser_a555bc6f671d408208e6d049f8e9f3c86}{parse\-If\-Expr} ()}\label{classParser_a555bc6f671d408208e6d049f8e9f3c86}
+
+\begin{DoxyCompactList}\small\item\em \hyperlink{classExpr}{Expr} \-:\-:= 'if' \hyperlink{classExpr}{Expr} 'then' \hyperlink{classExpr}{Expr} 'else' \hyperlink{classExpr}{Expr}. \end{DoxyCompactList}\item 
+\hyperlink{classParseResult}{Parse\-Result} \hyperlink{classParser_ae09cb2b5a7f80c6ad4ad9ccf27a746ca}{parse\-Addition} (\hyperlink{classParseResult}{Parse\-Result} left)
+\begin{DoxyCompactList}\small\item\em \hyperlink{classExpr}{Expr} \-:\-:= \hyperlink{classExpr}{Expr} '+' \hyperlink{classExpr}{Expr}. \end{DoxyCompactList}\item 
+\hyperlink{classParseResult}{Parse\-Result} \hyperlink{classParser_a52e6a57d53fc98e5819cc51b3cbe5bd5}{parse\-Multiplication} (\hyperlink{classParseResult}{Parse\-Result} left)
+\begin{DoxyCompactList}\small\item\em \hyperlink{classExpr}{Expr} \-:\-:= \hyperlink{classExpr}{Expr} '$\ast$' \hyperlink{classExpr}{Expr}. \end{DoxyCompactList}\item 
+\hyperlink{classParseResult}{Parse\-Result} \hyperlink{classParser_ac22cf1f77e0ca4c23942d5cbcc47eb37}{parse\-Subtraction} (\hyperlink{classParseResult}{Parse\-Result} left)
+\begin{DoxyCompactList}\small\item\em \hyperlink{classExpr}{Expr} \-:\-:= \hyperlink{classExpr}{Expr} '-\/' \hyperlink{classExpr}{Expr}. \end{DoxyCompactList}\item 
+\hyperlink{classParseResult}{Parse\-Result} \hyperlink{classParser_ad05e6cd1bf83179ecb727b83cbbd0c4e}{parse\-Division} (\hyperlink{classParseResult}{Parse\-Result} left)
+\begin{DoxyCompactList}\small\item\em \hyperlink{classExpr}{Expr} \-:\-:= \hyperlink{classExpr}{Expr} '/' \hyperlink{classExpr}{Expr}. \end{DoxyCompactList}\item 
+\hyperlink{classParseResult}{Parse\-Result} \hyperlink{classParser_ab42ecabc4dbe601d5ed9667351c0c0b8}{parse\-Relational\-Expr} (\hyperlink{classParseResult}{Parse\-Result} left)
+\item 
+\hypertarget{classParser_a3199aab5275c8b6477245eb866fabf35}{void \hyperlink{classParser_a3199aab5275c8b6477245eb866fabf35}{match} (token\-Type tt)}\label{classParser_a3199aab5275c8b6477245eb866fabf35}
+
+\begin{DoxyCompactList}\small\item\em Helper function used by the parser. \end{DoxyCompactList}\item 
+\hypertarget{classParser_a151ffb920a67527813d77bc4ba44c4a7}{bool \hyperlink{classParser_a151ffb920a67527813d77bc4ba44c4a7}{attempt\-Match} (token\-Type tt)}\label{classParser_a151ffb920a67527813d77bc4ba44c4a7}
+
+\begin{DoxyCompactList}\small\item\em Verify that the token matches, if so, advance to the next token. \end{DoxyCompactList}\item 
+\hypertarget{classParser_a67a10b685bd263477b5f59f1923cdec3}{bool {\bfseries next\-Is} (token\-Type tt)}\label{classParser_a67a10b685bd263477b5f59f1923cdec3}
+
+\item 
+\hypertarget{classParser_a324a5bb61c9dfc645300a92aecd6fe69}{void \hyperlink{classParser_a324a5bb61c9dfc645300a92aecd6fe69}{next\-Token} ()}\label{classParser_a324a5bb61c9dfc645300a92aecd6fe69}
+
+\begin{DoxyCompactList}\small\item\em Advance prev\-Token and curr\-Token if no errors are found. \end{DoxyCompactList}\item 
+\hypertarget{classParser_a1f45059a13bc0c98355278a9ca9feed9}{std\-::string {\bfseries terminal\-Description} (token\-Type terminal)}\label{classParser_a1f45059a13bc0c98355278a9ca9feed9}
+
+\item 
+\hypertarget{classParser_a341bee73e8b1e8558505a237846b16b3}{std\-::string {\bfseries make\-Error\-Msg} (token\-Type terminal)}\label{classParser_a341bee73e8b1e8558505a237846b16b3}
+
+\item 
+\hypertarget{classParser_ad38e58ddee85db2aecbd3c7bdcf42116}{std\-::string {\bfseries make\-Error\-Msg\-Expected} (token\-Type terminal)}\label{classParser_ad38e58ddee85db2aecbd3c7bdcf42116}
+
+\item 
+\hypertarget{classParser_a60c23daeffb7ced92599e4f2555f71c9}{std\-::string {\bfseries make\-Error\-Msg} (const char $\ast$msg)}\label{classParser_a60c23daeffb7ced92599e4f2555f71c9}
+
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classParser_a3606ff327be18af7f76df95f50851633}{\hyperlink{classExtToken}{Ext\-Token} $\ast$ {\bfseries tokens}}\label{classParser_a3606ff327be18af7f76df95f50851633}
+
+\item 
+\hypertarget{classParser_a75ab2e2b9385c14e5f967f873340ed11}{\hyperlink{classExtToken}{Ext\-Token} $\ast$ {\bfseries curr\-Token}}\label{classParser_a75ab2e2b9385c14e5f967f873340ed11}
+
+\item 
+\hypertarget{classParser_a4bcf7560a5ea1b486bbe4bb54a5a22eb}{\hyperlink{classExtToken}{Ext\-Token} $\ast$ {\bfseries prev\-Token}}\label{classParser_a4bcf7560a5ea1b486bbe4bb54a5a22eb}
+
+\item 
+\hypertarget{classParser_a0910de176dcc1cdfbf7ad99622ce9dd5}{\hyperlink{classToken}{Token} $\ast$ {\bfseries stokens}}\label{classParser_a0910de176dcc1cdfbf7ad99622ce9dd5}
+
+\item 
+\hypertarget{classParser_ab2ef99ea9e732f5fd176b3949a6c32af}{\hyperlink{classScanner}{Scanner} $\ast$ {\bfseries s}}\label{classParser_ab2ef99ea9e732f5fd176b3949a6c32af}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classParser_a2c1a7aa0b09a43bc1eef460817efb1d6}{\index{Parser@{Parser}!parse@{parse}}
+\index{parse@{parse}!Parser@{Parser}}
+\subsubsection[{parse}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Parse\-Result} Parser\-::parse (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{text}
+\end{DoxyParamCaption}
+)}}\label{classParser_a2c1a7aa0b09a43bc1eef460817efb1d6}
+
+
+parse takes in a char $\ast$text dsl program and returns the parsed result 
+
+This is the catch for condition 2 in \hyperlink{ast__tests_8h_source}{ast\-\_\-tests.\-h} \hypertarget{classParser_ae09cb2b5a7f80c6ad4ad9ccf27a746ca}{\index{Parser@{Parser}!parse\-Addition@{parse\-Addition}}
+\index{parse\-Addition@{parse\-Addition}!Parser@{Parser}}
+\subsubsection[{parse\-Addition}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Parse\-Result} Parser\-::parse\-Addition (
+\begin{DoxyParamCaption}
+\item[{{\bf Parse\-Result}}]{left}
+\end{DoxyParamCaption}
+)}}\label{classParser_ae09cb2b5a7f80c6ad4ad9ccf27a746ca}
+
+
+\hyperlink{classExpr}{Expr} \-:\-:= \hyperlink{classExpr}{Expr} '+' \hyperlink{classExpr}{Expr}. 
+
+parser has already matched left expression
+
+Create the node for the left expression
+
+Create the node and set up the right expression \hypertarget{classParser_ac646227983887c1cd13dae67fa1bc142}{\index{Parser@{Parser}!parse\-Decl@{parse\-Decl}}
+\index{parse\-Decl@{parse\-Decl}!Parser@{Parser}}
+\subsubsection[{parse\-Decl}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Parse\-Result} Parser\-::parse\-Decl (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classParser_ac646227983887c1cd13dae67fa1bc142}
+\hyperlink{classDecl}{Decl} Determines whether to parse a standard declaration or a matrix declaration \hyperlink{classDecl}{Decl} \-:\-: Matrix variable\-Name ....
+
+\hyperlink{classDecl}{Decl} \-:\-:= Type variable\-Name semi\-Colon \hypertarget{classParser_ad05e6cd1bf83179ecb727b83cbbd0c4e}{\index{Parser@{Parser}!parse\-Division@{parse\-Division}}
+\index{parse\-Division@{parse\-Division}!Parser@{Parser}}
+\subsubsection[{parse\-Division}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Parse\-Result} Parser\-::parse\-Division (
+\begin{DoxyParamCaption}
+\item[{{\bf Parse\-Result}}]{left}
+\end{DoxyParamCaption}
+)}}\label{classParser_ad05e6cd1bf83179ecb727b83cbbd0c4e}
+
+
+\hyperlink{classExpr}{Expr} \-:\-:= \hyperlink{classExpr}{Expr} '/' \hyperlink{classExpr}{Expr}. 
+
+parser has already matched left expression
+
+Create the node for the left expression
+
+Create the node and set up the right expression \hypertarget{classParser_a50227dc24dc7a175ac0533d9957dfcf8}{\index{Parser@{Parser}!parse\-Expr@{parse\-Expr}}
+\index{parse\-Expr@{parse\-Expr}!Parser@{Parser}}
+\subsubsection[{parse\-Expr}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Parse\-Result} Parser\-::parse\-Expr (
+\begin{DoxyParamCaption}
+\item[{int}]{rbp}
+\end{DoxyParamCaption}
+)}}\label{classParser_a50227dc24dc7a175ac0533d9957dfcf8}
+
+
+\hyperlink{classExpr}{Expr}. 
+
+Examine current token, without consuming it, to call its associated parse methods. The \hyperlink{classExtToken}{Ext\-Token} objects have 'nud' and 'led' methods that are dispatchers that call the appropriate parse methods.\hypertarget{classParser_a3a00df25fda2af308b69f05eed14ac69}{\index{Parser@{Parser}!parse\-Matrix\-Decl@{parse\-Matrix\-Decl}}
+\index{parse\-Matrix\-Decl@{parse\-Matrix\-Decl}!Parser@{Parser}}
+\subsubsection[{parse\-Matrix\-Decl}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Parse\-Result} Parser\-::parse\-Matrix\-Decl (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classParser_a3a00df25fda2af308b69f05eed14ac69}
+Matrix\-Decl Identical purpose of parse\-Decl, handles special matrix syntax. \hyperlink{classDecl}{Decl} \-:\-:= 'matrix' var\-Name '\mbox{[}' \hyperlink{classExpr}{Expr} '\-:' \hyperlink{classExpr}{Expr} '\mbox{]}' var\-Name '\-:' var\-Name '=' \hyperlink{classExpr}{Expr} ';'
+
+\hyperlink{classDecl}{Decl} \-:\-:= 'matrix' var\-Name '=' \hyperlink{classExpr}{Expr} ';' \hypertarget{classParser_a52e6a57d53fc98e5819cc51b3cbe5bd5}{\index{Parser@{Parser}!parse\-Multiplication@{parse\-Multiplication}}
+\index{parse\-Multiplication@{parse\-Multiplication}!Parser@{Parser}}
+\subsubsection[{parse\-Multiplication}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Parse\-Result} Parser\-::parse\-Multiplication (
+\begin{DoxyParamCaption}
+\item[{{\bf Parse\-Result}}]{left}
+\end{DoxyParamCaption}
+)}}\label{classParser_a52e6a57d53fc98e5819cc51b3cbe5bd5}
+
+
+\hyperlink{classExpr}{Expr} \-:\-:= \hyperlink{classExpr}{Expr} '$\ast$' \hyperlink{classExpr}{Expr}. 
+
+parser has already matched left expression
+
+Create the node for the left expression
+
+Create the node and set up the right expression \hypertarget{classParser_a14e25c84322809e2f060dc530362ea71}{\index{Parser@{Parser}!parse\-Program@{parse\-Program}}
+\index{parse\-Program@{parse\-Program}!Parser@{Parser}}
+\subsubsection[{parse\-Program}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Parse\-Result} Parser\-::parse\-Program (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classParser_a14e25c84322809e2f060dc530362ea71}
+\subsubsection*{parse methods for non-\/terminal symbols }
+
+parse\-Program is used to fully parse grammar line 1 and recursively build the abstract syntax tree (ast) root \hyperlink{classProgram}{Program} \-:\-:= var\-Name '(' ')' '\{' \hyperlink{classStmts}{Stmts} '\}' Match helper function, throws exception if token doesn't match, moves to next token if match is true
+
+Direct initialization. The string variable 'name' is initialized to the lexeme of the dereferenced pointer 'prev\-Token'
+
+Initialize varname from grammar line 1 (i.\-e. \char`\"{}main\char`\"{})
+
+Create \hyperlink{classStmt}{Stmt} \hyperlink{classStmts}{Stmts} nodes
+
+Create a stmts root node for all the nodes recursively created through pr\-Stmts above
+
+ast is a \hyperlink{classNode}{Node} pointer found in \hyperlink{parseResult_8h_source}{parse\-Result.\-h}
+
+Fully parsed program to be returned \hypertarget{classParser_ab42ecabc4dbe601d5ed9667351c0c0b8}{\index{Parser@{Parser}!parse\-Relational\-Expr@{parse\-Relational\-Expr}}
+\index{parse\-Relational\-Expr@{parse\-Relational\-Expr}!Parser@{Parser}}
+\subsubsection[{parse\-Relational\-Expr}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Parse\-Result} Parser\-::parse\-Relational\-Expr (
+\begin{DoxyParamCaption}
+\item[{{\bf Parse\-Result}}]{pr\-Left}
+\end{DoxyParamCaption}
+)}}\label{classParser_ab42ecabc4dbe601d5ed9667351c0c0b8}
+\hyperlink{classExpr}{Expr} \-:\-:= \hyperlink{classExpr}{Expr} equal\-Equals \hyperlink{classExpr}{Expr} \hyperlink{classExpr}{Expr} \-:\-:= \hyperlink{classExpr}{Expr} less\-Than\-Equals \hyperlink{classExpr}{Expr} \hyperlink{classExpr}{Expr} \-:\-:= \hyperlink{classExpr}{Expr} greater\-Than\-Equals \hyperlink{classExpr}{Expr} \hyperlink{classExpr}{Expr} \-:\-:= \hyperlink{classExpr}{Expr} not\-Equals \hyperlink{classExpr}{Expr} \hyperlink{classExpr}{Expr} \-:\-:= \hyperlink{classExpr}{Expr} left\-Angle \hyperlink{classExpr}{Expr} \hyperlink{classExpr}{Expr} \-:\-:= \hyperlink{classExpr}{Expr} right\-Angle \hyperlink{classExpr}{Expr}
+
+Notice that for relational operators we use just one parse function. This shows another possible means for implementing expressions, as opposed to the method used for arithmetic expressions in which each operation has its own parse method. It will depend on what we do in iteration 3 in building an abstract syntax tree to decide which method is better. parser has already matched left expression
+
+Create the node for the left expression
+
+just advance token, since examining it in parse\-Expr caused this method being called.
+
+Create the node and set up the right expression \hypertarget{classParser_a1e1f83c0f4b11148a356d951f191425e}{\index{Parser@{Parser}!parse\-Standard\-Decl@{parse\-Standard\-Decl}}
+\index{parse\-Standard\-Decl@{parse\-Standard\-Decl}!Parser@{Parser}}
+\subsubsection[{parse\-Standard\-Decl}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Parse\-Result} Parser\-::parse\-Standard\-Decl (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classParser_a1e1f83c0f4b11148a356d951f191425e}
+standard\-Decl \hyperlink{classDecl}{Decl} \-:\-:= integer\-Kwd var\-Name $\vert$ float\-Kwd var\-Name $\vert$ string\-Kwd var\-Name $\vert$ bool\-Kwd var\-Name \hyperlink{classParseResult}{Parse\-Result} pr\-Type = parse\-Type() ;
+
+Type \-:\-:= int\-Kwd
+
+Type \-:\-:= float\-Kwd
+
+Type \-:\-:= string\-Kwd
+
+Type \-:\-:= bool\-Kwd
+
+From the current standard declaration, parse the variable name (as a string)
+
+Create the new standard declaration with the keyword type and variable name \hypertarget{classParser_a9709c4793d0cce012d595f3ee416cd25}{\index{Parser@{Parser}!parse\-Stmt@{parse\-Stmt}}
+\index{parse\-Stmt@{parse\-Stmt}!Parser@{Parser}}
+\subsubsection[{parse\-Stmt}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Parse\-Result} Parser\-::parse\-Stmt (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classParser_a9709c4793d0cce012d595f3ee416cd25}
+
+
+\hyperlink{classStmt}{Stmt}. 
+
+\hyperlink{classStmt}{Stmt} \-:\-:= \hyperlink{classDecl}{Decl}
+
+\hyperlink{classStmt}{Stmt} \-:\-:= '\{' \hyperlink{classStmts}{Stmts} '\}'
+
+\hyperlink{classStmt}{Stmt} \-:\-:= 'if' '(' \hyperlink{classExpr}{Expr} ')' \hyperlink{classStmt}{Stmt} \hyperlink{classStmt}{Stmt} \-:\-:= 'if' '(' \hyperlink{classExpr}{Expr} ')' \hyperlink{classStmt}{Stmt} 'else' \hyperlink{classStmt}{Stmt}
+
+Handle if/else statement
+
+Handle only if statement
+
+\hyperlink{classStmt}{Stmt} \-:\-:= var\-Name '=' \hyperlink{classExpr}{Expr} ';' $\vert$ var\-Name '\mbox{[}' \hyperlink{classExpr}{Expr} '\-:' \hyperlink{classExpr}{Expr} '\mbox{]}' '=' \hyperlink{classExpr}{Expr} ';'
+
+Determine whether it's a regular assignment or matrix assignment
+
+Parse the first matrix expression
+
+Parse the second matrix expression
+
+ast is the pointer to the \hyperlink{classNode}{Node} of pr\-Expr (\hyperlink{classParseResult}{Parse\-Result})
+
+Handle matrix assignment statement
+
+Handle regular assignment statement
+
+\hyperlink{classStmt}{Stmt} \-:\-:= 'print' '(' \hyperlink{classExpr}{Expr} ')' ';'
+
+\hyperlink{classStmt}{Stmt} \-:\-:= 'repeat' '(' var\-Name '=' \hyperlink{classExpr}{Expr} 'to' \hyperlink{classExpr}{Expr} ')' \hyperlink{classStmt}{Stmt}
+
+\hyperlink{classStmt}{Stmt} \-:\-:= 'while' '(' \hyperlink{classExpr}{Expr} ')' \hyperlink{classStmt}{Stmt}
+
+\hyperlink{classStmt}{Stmt} \-:\-:= ';
+
+parsed a skip
+
+\hyperlink{classStmt}{Stmt} \-:\-:= variable\-Name assign \hyperlink{classExpr}{Expr} semi\-Colon \hypertarget{classParser_a452db3def31683cb0305e57a01489bd4}{\index{Parser@{Parser}!parse\-Stmts@{parse\-Stmts}}
+\index{parse\-Stmts@{parse\-Stmts}!Parser@{Parser}}
+\subsubsection[{parse\-Stmts}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Parse\-Result} Parser\-::parse\-Stmts (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classParser_a452db3def31683cb0305e57a01489bd4}
+
+
+parse\-Stmts results in either a new 'stmt \hyperlink{classStmts}{Stmts}' or 'empty\-Stmts' (grammar lines 2 or 3) 
+
+\hyperlink{classStmts}{Stmts} \-:\-:= \hyperlink{classStmt}{Stmt} \hyperlink{classStmts}{Stmts}
+
+\hyperlink{classNode}{Node} for \hyperlink{classStmt}{Stmt}
+
+\hyperlink{classNode}{Node} for \hyperlink{classStmts}{Stmts}; recurse this function
+
+Create stmt\-Stmts junction, the stmt\-Stmts constructor expects pointers for the
+
+\hyperlink{classStmt}{Stmt} and \hyperlink{classStmts}{Stmts} nodes
+
+\hyperlink{classStmts}{Stmts} \-:\-:= nothing to match. \hypertarget{classParser_ac22cf1f77e0ca4c23942d5cbcc47eb37}{\index{Parser@{Parser}!parse\-Subtraction@{parse\-Subtraction}}
+\index{parse\-Subtraction@{parse\-Subtraction}!Parser@{Parser}}
+\subsubsection[{parse\-Subtraction}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Parse\-Result} Parser\-::parse\-Subtraction (
+\begin{DoxyParamCaption}
+\item[{{\bf Parse\-Result}}]{left}
+\end{DoxyParamCaption}
+)}}\label{classParser_ac22cf1f77e0ca4c23942d5cbcc47eb37}
+
+
+\hyperlink{classExpr}{Expr} \-:\-:= \hyperlink{classExpr}{Expr} '-\/' \hyperlink{classExpr}{Expr}. 
+
+parser has already matched left expression
+
+Create the node for the left expression
+
+Create the node and set up the right expression \hypertarget{classParser_ad40f1e5e4c66814f959d982f94b767a3}{\index{Parser@{Parser}!parse\-True\-Kwd@{parse\-True\-Kwd}}
+\index{parse\-True\-Kwd@{parse\-True\-Kwd}!Parser@{Parser}}
+\subsubsection[{parse\-True\-Kwd}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Parse\-Result} Parser\-::parse\-True\-Kwd (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classParser_ad40f1e5e4c66814f959d982f94b767a3}
+
+
+\hyperlink{classExpr}{Expr} \-:\-:= true\-Kwd. 
+
+\subsubsection*{parse methods for \hyperlink{classExpr}{Expr} productions }\hypertarget{classParser_a8c1baf62f71da64590e883e51ce622ca}{\index{Parser@{Parser}!parse\-Variable\-Name@{parse\-Variable\-Name}}
+\index{parse\-Variable\-Name@{parse\-Variable\-Name}!Parser@{Parser}}
+\subsubsection[{parse\-Variable\-Name}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Parse\-Result} Parser\-::parse\-Variable\-Name (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classParser_a8c1baf62f71da64590e883e51ce622ca}
+
+
+\hyperlink{classExpr}{Expr} \-:\-:= variable\-Name ..... 
+
+\hyperlink{classExpr}{Expr} \-:\-:= variable\-Name '\mbox{[}' \hyperlink{classExpr}{Expr} '\-:' \hyperlink{classExpr}{Expr} '\mbox{]}' \hyperlink{classMatrixRef}{Matrix\-Ref}
+
+\hyperlink{classExpr}{Expr} \-:\-:= varable\-Name '(' \hyperlink{classExpr}{Expr} ')' Nested\-Or\-Function\-Call
+
+\hyperlink{classExpr}{Expr} \-:= variable\-Name
+
+variable 
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+parser.\-h\item 
+parser.\-cpp\end{DoxyCompactItemize}

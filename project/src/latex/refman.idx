@@ -1,0 +1,57 @@
+\indexentry{Assignment\discretionary {-}{}{}Matrix\discretionary {-}{}{}Stmt@{Assignment\discretionary {-}{}{}Matrix\discretionary {-}{}{}Stmt}|hyperpage}{5}
+\indexentry{Assignment\discretionary {-}{}{}Stmt@{Assignment\discretionary {-}{}{}Stmt}|hyperpage}{5}
+\indexentry{Ast\discretionary {-}{}{}Test\discretionary {-}{}{}Suite@{Ast\discretionary {-}{}{}Test\discretionary {-}{}{}Suite}|hyperpage}{6}
+\indexentry{Bitwise\discretionary {-}{}{}Operator@{Bitwise\discretionary {-}{}{}Operator}|hyperpage}{6}
+\indexentry{Char\discretionary {-}{}{}Const\discretionary {-}{}{}Token@{Char\discretionary {-}{}{}Const\discretionary {-}{}{}Token}|hyperpage}{7}
+\indexentry{Const\discretionary {-}{}{}Expr@{Const\discretionary {-}{}{}Expr}|hyperpage}{7}
+\indexentry{Curly\discretionary {-}{}{}Stmts@{Curly\discretionary {-}{}{}Stmts}|hyperpage}{8}
+\indexentry{Dash\discretionary {-}{}{}Token@{Dash\discretionary {-}{}{}Token}|hyperpage}{8}
+\indexentry{Decl@{Decl}|hyperpage}{9}
+\indexentry{Empty\discretionary {-}{}{}Stmts@{Empty\discretionary {-}{}{}Stmts}|hyperpage}{9}
+\indexentry{End\discretionary {-}{}{}Of\discretionary {-}{}{}File\discretionary {-}{}{}Token@{End\discretionary {-}{}{}Of\discretionary {-}{}{}File\discretionary {-}{}{}Token}|hyperpage}{9}
+\indexentry{Expr@{Expr}|hyperpage}{10}
+\indexentry{Ext\discretionary {-}{}{}Token@{Ext\discretionary {-}{}{}Token}|hyperpage}{11}
+\indexentry{False\discretionary {-}{}{}Kwd\discretionary {-}{}{}Token@{False\discretionary {-}{}{}Kwd\discretionary {-}{}{}Token}|hyperpage}{12}
+\indexentry{Float\discretionary {-}{}{}Const\discretionary {-}{}{}Token@{Float\discretionary {-}{}{}Const\discretionary {-}{}{}Token}|hyperpage}{12}
+\indexentry{Forward\discretionary {-}{}{}Slash\discretionary {-}{}{}Token@{Forward\discretionary {-}{}{}Slash\discretionary {-}{}{}Token}|hyperpage}{12}
+\indexentry{If\discretionary {-}{}{}Else\discretionary {-}{}{}Stmt@{If\discretionary {-}{}{}Else\discretionary {-}{}{}Stmt}|hyperpage}{13}
+\indexentry{If\discretionary {-}{}{}Stmt@{If\discretionary {-}{}{}Stmt}|hyperpage}{13}
+\indexentry{If\discretionary {-}{}{}Then\discretionary {-}{}{}Else\discretionary {-}{}{}Expr@{If\discretionary {-}{}{}Then\discretionary {-}{}{}Else\discretionary {-}{}{}Expr}|hyperpage}{14}
+\indexentry{If\discretionary {-}{}{}Token@{If\discretionary {-}{}{}Token}|hyperpage}{14}
+\indexentry{Int\discretionary {-}{}{}Const\discretionary {-}{}{}Token@{Int\discretionary {-}{}{}Const\discretionary {-}{}{}Token}|hyperpage}{15}
+\indexentry{Left\discretionary {-}{}{}Paren\discretionary {-}{}{}Token@{Left\discretionary {-}{}{}Paren\discretionary {-}{}{}Token}|hyperpage}{15}
+\indexentry{Let\discretionary {-}{}{}Expr@{Let\discretionary {-}{}{}Expr}|hyperpage}{16}
+\indexentry{Let\discretionary {-}{}{}Token@{Let\discretionary {-}{}{}Token}|hyperpage}{16}
+\indexentry{Logic\discretionary {-}{}{}Operator@{Logic\discretionary {-}{}{}Operator}|hyperpage}{17}
+\indexentry{Matrix\discretionary {-}{}{}Decl1@{Matrix\discretionary {-}{}{}Decl1}|hyperpage}{17}
+\indexentry{Matrix\discretionary {-}{}{}Decl2@{Matrix\discretionary {-}{}{}Decl2}|hyperpage}{17}
+\indexentry{Matrix\discretionary {-}{}{}Ref@{Matrix\discretionary {-}{}{}Ref}|hyperpage}{18}
+\indexentry{Nested\discretionary {-}{}{}Or\discretionary {-}{}{}Func\discretionary {-}{}{}Call@{Nested\discretionary {-}{}{}Or\discretionary {-}{}{}Func\discretionary {-}{}{}Call}|hyperpage}{18}
+\indexentry{Node@{Node}|hyperpage}{19}
+\indexentry{Not\discretionary {-}{}{}Expr@{Not\discretionary {-}{}{}Expr}|hyperpage}{19}
+\indexentry{Not\discretionary {-}{}{}Op\discretionary {-}{}{}Token@{Not\discretionary {-}{}{}Op\discretionary {-}{}{}Token}|hyperpage}{20}
+\indexentry{Paren\discretionary {-}{}{}Expr@{Paren\discretionary {-}{}{}Expr}|hyperpage}{20}
+\indexentry{Parser@{Parser}|hyperpage}{21}
+\indexentry{Parse\discretionary {-}{}{}Result@{Parse\discretionary {-}{}{}Result}|hyperpage}{22}
+\indexentry{Parser\discretionary {-}{}{}Test\discretionary {-}{}{}Suite@{Parser\discretionary {-}{}{}Test\discretionary {-}{}{}Suite}|hyperpage}{22}
+\indexentry{Plus\discretionary {-}{}{}Sign\discretionary {-}{}{}Token@{Plus\discretionary {-}{}{}Sign\discretionary {-}{}{}Token}|hyperpage}{22}
+\indexentry{Print\discretionary {-}{}{}Stmt@{Print\discretionary {-}{}{}Stmt}|hyperpage}{23}
+\indexentry{Program@{Program}|hyperpage}{23}
+\indexentry{Regex\discretionary {-}{}{}Test\discretionary {-}{}{}Suite@{Regex\discretionary {-}{}{}Test\discretionary {-}{}{}Suite}|hyperpage}{24}
+\indexentry{Relational\discretionary {-}{}{}Op\discretionary {-}{}{}Token@{Relational\discretionary {-}{}{}Op\discretionary {-}{}{}Token}|hyperpage}{24}
+\indexentry{Repeat\discretionary {-}{}{}Stmt@{Repeat\discretionary {-}{}{}Stmt}|hyperpage}{25}
+\indexentry{Scanner@{Scanner}|hyperpage}{25}
+\indexentry{Scanner\discretionary {-}{}{}Test\discretionary {-}{}{}Suite@{Scanner\discretionary {-}{}{}Test\discretionary {-}{}{}Suite}|hyperpage}{25}
+\indexentry{Semi\discretionary {-}{}{}Colon\discretionary {-}{}{}Stmt@{Semi\discretionary {-}{}{}Colon\discretionary {-}{}{}Stmt}|hyperpage}{27}
+\indexentry{Standard\discretionary {-}{}{}Decl@{Standard\discretionary {-}{}{}Decl}|hyperpage}{27}
+\indexentry{Star\discretionary {-}{}{}Token@{Star\discretionary {-}{}{}Token}|hyperpage}{28}
+\indexentry{Stmt@{Stmt}|hyperpage}{28}
+\indexentry{Stmts@{Stmts}|hyperpage}{29}
+\indexentry{Stmt\discretionary {-}{}{}Stmts@{Stmt\discretionary {-}{}{}Stmts}|hyperpage}{30}
+\indexentry{String\discretionary {-}{}{}Const\discretionary {-}{}{}Token@{String\discretionary {-}{}{}Const\discretionary {-}{}{}Token}|hyperpage}{30}
+\indexentry{Token@{Token}|hyperpage}{30}
+\indexentry{True\discretionary {-}{}{}Kwd\discretionary {-}{}{}Token@{True\discretionary {-}{}{}Kwd\discretionary {-}{}{}Token}|hyperpage}{31}
+\indexentry{True\discretionary {-}{}{}Or\discretionary {-}{}{}False\discretionary {-}{}{}Expr@{True\discretionary {-}{}{}Or\discretionary {-}{}{}False\discretionary {-}{}{}Expr}|hyperpage}{31}
+\indexentry{Variable\discretionary {-}{}{}Name\discretionary {-}{}{}Token@{Variable\discretionary {-}{}{}Name\discretionary {-}{}{}Token}|hyperpage}{32}
+\indexentry{Var\discretionary {-}{}{}Name@{Var\discretionary {-}{}{}Name}|hyperpage}{32}
+\indexentry{While\discretionary {-}{}{}Stmt@{While\discretionary {-}{}{}Stmt}|hyperpage}{33}

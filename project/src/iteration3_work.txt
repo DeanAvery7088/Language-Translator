@@ -1,0 +1,9 @@
+Iteration 3 division of labor:
+
+Dean Avery aver0002 & Kevin Wang wang3224
+
+For iteration 3, Dean began by creating initial simple test cases and adding them to ast_tests.h, creating the initial classes in parser.cpp, extending the Makefile, and getting sample_1 and sample_2 to pass.  Kevin built our initial UML file in draw.io.  Henceforth, we implemented pairwise programming with Dean working primarly during the day, and Kevin taking over at night to complete the additional classes in AST.h, node creation in parser.cpp and to successfully pass all remaining tests.  Kevin completed sample_3 and sample_4, with Dean completing sample_5, mysample, and forest_loss_v2. 
+
+Once we got all tests to pass, Dean worked on cleaning up the code, better implementation of "defensive programming," adding dynamic casts, etc.  Kevin made revisions to our final UML diagram.  We began work with dOxygen during lab 11.
+
+

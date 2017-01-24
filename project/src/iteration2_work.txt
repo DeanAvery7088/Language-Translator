@@ -1,0 +1,7 @@
+Iteration 2 division of labor:
+
+Dean Avery aver0002 & Kevin Wang wang3224
+
+For iteration 2 we implimented pairwise programming.  Dean transferred and set-up the new files 
+required for this iteration.  After which we jointly discussed, planned, made changes, and 
+developed: scanner.h, scanner.cpp, scanner_tests.h, mysample.dsl, as well as extending our Makefile.     

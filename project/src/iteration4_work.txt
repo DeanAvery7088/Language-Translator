@@ -1,0 +1,8 @@
+Iteration 4 division of labor:
+
+Dean Avery aver0002 & Kevin Wang wang3224
+
+For iteration 4, Dean began by modifying the makefile while Kevin began working on the AST.h cppCode.  
+Thereafter, we implemented pairwise programming throughout with both working in conjunction and making
+substantial contributions on all parts: AST.h, Matrix.cpp, Matrix.h, testing of all sample programs,
+creation of my_codes, and the 15 extra credit points.  

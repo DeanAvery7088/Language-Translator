@@ -1,0 +1,129 @@
+\begin{theindex}
+
+  \item {Assignment\discretionary {-}{}{}Matrix\discretionary {-}{}{}Stmt}, 
+		\hyperpage{5}
+  \item {Assignment\discretionary {-}{}{}Stmt}, \hyperpage{5}
+  \item {Ast\discretionary {-}{}{}Test\discretionary {-}{}{}Suite}, 
+		\hyperpage{6}
+
+  \indexspace
+
+  \item {Bitwise\discretionary {-}{}{}Operator}, \hyperpage{6}
+
+  \indexspace
+
+  \item {Char\discretionary {-}{}{}Const\discretionary {-}{}{}Token}, 
+		\hyperpage{7}
+  \item {Const\discretionary {-}{}{}Expr}, \hyperpage{7}
+  \item {Curly\discretionary {-}{}{}Stmts}, \hyperpage{8}
+
+  \indexspace
+
+  \item {Dash\discretionary {-}{}{}Token}, \hyperpage{8}
+  \item {Decl}, \hyperpage{9}
+
+  \indexspace
+
+  \item {Empty\discretionary {-}{}{}Stmts}, \hyperpage{9}
+  \item {End\discretionary {-}{}{}Of\discretionary {-}{}{}File\discretionary {-}{}{}Token}, 
+		\hyperpage{9}
+  \item {Expr}, \hyperpage{10}
+  \item {Ext\discretionary {-}{}{}Token}, \hyperpage{11}
+
+  \indexspace
+
+  \item {False\discretionary {-}{}{}Kwd\discretionary {-}{}{}Token}, 
+		\hyperpage{12}
+  \item {Float\discretionary {-}{}{}Const\discretionary {-}{}{}Token}, 
+		\hyperpage{12}
+  \item {Forward\discretionary {-}{}{}Slash\discretionary {-}{}{}Token}, 
+		\hyperpage{12}
+
+  \indexspace
+
+  \item {If\discretionary {-}{}{}Else\discretionary {-}{}{}Stmt}, 
+		\hyperpage{13}
+  \item {If\discretionary {-}{}{}Stmt}, \hyperpage{13}
+  \item {If\discretionary {-}{}{}Then\discretionary {-}{}{}Else\discretionary {-}{}{}Expr}, 
+		\hyperpage{14}
+  \item {If\discretionary {-}{}{}Token}, \hyperpage{14}
+  \item {Int\discretionary {-}{}{}Const\discretionary {-}{}{}Token}, 
+		\hyperpage{15}
+
+  \indexspace
+
+  \item {Left\discretionary {-}{}{}Paren\discretionary {-}{}{}Token}, 
+		\hyperpage{15}
+  \item {Let\discretionary {-}{}{}Expr}, \hyperpage{16}
+  \item {Let\discretionary {-}{}{}Token}, \hyperpage{16}
+  \item {Logic\discretionary {-}{}{}Operator}, \hyperpage{17}
+
+  \indexspace
+
+  \item {Matrix\discretionary {-}{}{}Decl1}, \hyperpage{17}
+  \item {Matrix\discretionary {-}{}{}Decl2}, \hyperpage{17}
+  \item {Matrix\discretionary {-}{}{}Ref}, \hyperpage{18}
+
+  \indexspace
+
+  \item {Nested\discretionary {-}{}{}Or\discretionary {-}{}{}Func\discretionary {-}{}{}Call}, 
+		\hyperpage{18}
+  \item {Node}, \hyperpage{19}
+  \item {Not\discretionary {-}{}{}Expr}, \hyperpage{19}
+  \item {Not\discretionary {-}{}{}Op\discretionary {-}{}{}Token}, 
+		\hyperpage{20}
+
+  \indexspace
+
+  \item {Paren\discretionary {-}{}{}Expr}, \hyperpage{20}
+  \item {Parse\discretionary {-}{}{}Result}, \hyperpage{22}
+  \item {Parser}, \hyperpage{21}
+  \item {Parser\discretionary {-}{}{}Test\discretionary {-}{}{}Suite}, 
+		\hyperpage{22}
+  \item {Plus\discretionary {-}{}{}Sign\discretionary {-}{}{}Token}, 
+		\hyperpage{22}
+  \item {Print\discretionary {-}{}{}Stmt}, \hyperpage{23}
+  \item {Program}, \hyperpage{23}
+
+  \indexspace
+
+  \item {Regex\discretionary {-}{}{}Test\discretionary {-}{}{}Suite}, 
+		\hyperpage{24}
+  \item {Relational\discretionary {-}{}{}Op\discretionary {-}{}{}Token}, 
+		\hyperpage{24}
+  \item {Repeat\discretionary {-}{}{}Stmt}, \hyperpage{25}
+
+  \indexspace
+
+  \item {Scanner}, \hyperpage{25}
+  \item {Scanner\discretionary {-}{}{}Test\discretionary {-}{}{}Suite}, 
+		\hyperpage{25}
+  \item {Semi\discretionary {-}{}{}Colon\discretionary {-}{}{}Stmt}, 
+		\hyperpage{27}
+  \item {Standard\discretionary {-}{}{}Decl}, \hyperpage{27}
+  \item {Star\discretionary {-}{}{}Token}, \hyperpage{28}
+  \item {Stmt}, \hyperpage{28}
+  \item {Stmt\discretionary {-}{}{}Stmts}, \hyperpage{30}
+  \item {Stmts}, \hyperpage{29}
+  \item {String\discretionary {-}{}{}Const\discretionary {-}{}{}Token}, 
+		\hyperpage{30}
+
+  \indexspace
+
+  \item {Token}, \hyperpage{30}
+  \item {True\discretionary {-}{}{}Kwd\discretionary {-}{}{}Token}, 
+		\hyperpage{31}
+  \item {True\discretionary {-}{}{}Or\discretionary {-}{}{}False\discretionary {-}{}{}Expr}, 
+		\hyperpage{31}
+
+  \indexspace
+
+  \item {Var\discretionary {-}{}{}Name}, \hyperpage{32}
+  \item {Variable\discretionary {-}{}{}Name\discretionary {-}{}{}Token}, 
+		\hyperpage{32}
+
+  \indexspace
+
+  \item {While\discretionary {-}{}{}Stmt}, \hyperpage{33}
+
+\end{theindex}

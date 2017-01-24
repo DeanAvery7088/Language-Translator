@@ -1,0 +1,9 @@
+Iteration 1 division of labor:
+
+Dean Avery aver0002 & Kevin Wang wang3224
+
+We began iteration one with Dean dissecting and building test cases for scanner_tests.h
+and Kevin beginning development of the scanner.  Upon Kevin getting our initial scanner
+operational we implemented pair-wise programming to work out the kinks; at which point 
+each made contributions to all components. For example, Kevin building test cases
+and Dean streamlining and building functationality into scanner.cpp.

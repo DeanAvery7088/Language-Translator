@@ -1,0 +1,6 @@
+main () {
+int results;
+results = 1;
+int num;
+num = 1;
+}

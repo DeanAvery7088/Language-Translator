@@ -1,0 +1,14 @@
+main () {
+int x;
+x = 5;
+int y;
+y = 0;
+if (x > 3) { 
+y = 7;
+} else { 
+y = 4;
+}
+while (x > 3) { 
+y = 7;
+}
+}
